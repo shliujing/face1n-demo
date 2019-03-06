@@ -1,0 +1,21 @@
+{
+    "Authorization": "QiniuStub uid=1&ut=2",
+
+    "gallery_id": "1",
+    "search_threshold": "0.4",
+    "search_top_n": "5",
+    "register_mode": "LARGEST",
+
+    "facex_get_galleries": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group",
+    "facex_get_faces": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group/<gallery-id>",
+
+    "facex_remove_gallery": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group/<gallery-id>/remove",
+    "facex_create_gallery": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group/<gallery-id>/new",
+    "facex_add_face": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group/<gallery-id>/add",
+
+    "facex_delete_face": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/group/<gallery-id>/delete",
+
+    "facex_search": "http://ava-argus-gate.xs.cg.dora-internal.qiniu.io:5001/v1/face/groups/search",
+
+    "url_prefix": "http://p6yobdq7s.bkt.clouddn.com"
+}
